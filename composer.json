@@ -89,6 +89,36 @@
         "symfony/symfony": "*"
     },
     "extra": {
+        "violinist": {
+            "bundled_packages": {
+                "symfony/framework-bundle": [
+                    "symfony/asset",
+                    "symfony/console",
+                    "symfony/dotenv",
+                    "symfony/expression-language",
+                    "symfony/flex",
+                    "symfony/form",
+                    "symfony/framework-bundle",
+                    "symfony/http-client",
+                    "symfony/intl",
+                    "symfony/mailer",
+                    "symfony/mime",
+                    "symfony/monolog-bundle",
+                    "symfony/notifier",
+                    "symfony/process",
+                    "symfony/property-access",
+                    "symfony/property-info",
+                    "symfony/security-bundle",
+                    "symfony/serializer",
+                    "symfony/string",
+                    "symfony/translation",
+                    "symfony/twig-bundle",
+                    "symfony/validator",
+                    "symfony/web-link",
+                    "symfony/yaml"
+                ]
+            }
+        },
         "symfony": {
             "allow-contrib": false,
             "require": "5.1.*"
